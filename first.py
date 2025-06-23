@@ -3,12 +3,12 @@
 
 greet("Alice")
 '''''''''
-''''']'current_price = int(input("Enter the current price of the stock: "))
+current_price = int(input("Enter the current price of the stock: "))
 yday_price = int(input("Enter the price of the stock yesterday: "))
 
 diff = int(current_price) - int(yday_price)
 
-print(diff)'''''
+print(diff)
 
 price1 = 1000
 price2 = 5000

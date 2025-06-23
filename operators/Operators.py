@@ -19,7 +19,9 @@ print(entry != exite)  # True
 # identity operators
 print(entry is exite)  # False
 print(entry is not exite)  # True
-# membership operators
+
+
+# membership operators   in , not in ,# These operators are used to check if a value is present in a sequence (like a list, tuple, or string).
 my_list = [100, 200, 300]
 print(entry in my_list)  # False
 print(exite in my_list)  # False
@@ -27,13 +29,21 @@ print(entry not in my_list)  # True
 print(exite not in my_list)  # True
 
 
-# bitwise operators
-print(entry & exite)  # Bitwise AND
-print(entry | exite)  # Bitwise OR
-print(entry ^ exite)  # Bitwise XOR
-print(~entry)  # Bitwise NOT
-print(entry << 2)  # Bitwise left shift
-print(entry >> 2)  # Bitwise right shift
+# bitwise operators    its a binary operation, it works on bits and performs bit by bit operation
+# Bitwise operators work on binary representations of integers.
+
+a = 5
+b = 3
+# 5 in binary is 101 , # 3 in binary is 011
+
+print(a & b)  # Bitwise AND      base on binary truth table
+print(a | b)  # Bitwise OR
+print(a ^ b)  # Bitwise XOR
+print(~a)  # Bitwise NOT
+print(a << 2)  # Bitwise left shift
+print(a >> 2)  # Bitwise right shift
+
+
 # Assignment operators
 entry *= 2
 entry /= 2
