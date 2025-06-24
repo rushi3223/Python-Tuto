@@ -16,3 +16,35 @@ else:
         print("Low Profit")
     else:
         print("Moderate Profit")
+
+
+#while statements
+
+current_price = 150 
+target_price  = 155
+
+while current_price < target_price:
+    print("Price is still below the target price")
+
+
+    current_price += 1
+
+# After the loop ends, we can assume the price is now above the target price
+    print("Now the Price is above the target price and you can sell the stock")
+
+
+    # While Else with Example
+
+price = [120,112,114,111,112]
+thresold_price = 115
+index = 0 
+
+while index < len(price):
+    if price[index] > thresold_price:
+        print(f"The price  {price[index]} breaches the thresold price {thresold_price} at {index}  ")
+        break
+    index += 1
+else:
+    print("There is no price breach")
+
+print("Search is completed")
